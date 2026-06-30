@@ -1,0 +1,60 @@
+.gradient-background{
+    background: linear-gradient(300deg, blue,skyblue,lightgreen);
+    background-size: 180%,180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+img{
+    margin-top: 30px;
+}
+#top{
+    min-height: 100vh;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    margin-bottom: 20px;
+}
+.github-btn{
+    background-color: black;
+    color: antiquewhite;
+    width: 110px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 15px;
+}
+.linkedin-btn{
+    background-color: blue;
+    color: white;
+    width: 110px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 30px auto 0 auto;
+}
